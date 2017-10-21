@@ -6,7 +6,8 @@ import java.util.List;
 public class Test {
 
   public List<String> foo() {
-    return new ArrayList<String>();
+    String baz = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+      return new ArrayList<String>();
   }
 
   public static final String bar = "TEST";
